@@ -11,6 +11,17 @@ class RixxyX {
       description: '[deleted]',
       blocks: [
         {
+          opcode: 'get',
+          blockType: Scratch.BlockType.REPORTER,
+          text: 'GET [URL]',
+          arguments: {
+            URL: {
+              type: Scratch.ArgumentType.STRING,
+              defaultValue: 'https://extensions.turbowarp.org/hello.txt'
+            }
+          }
+          },
+        {
           opcode: 'notEquals',
           blockType: Scratch.BlockType.BOOLEAN,
           text: '[TEXT_1] != [TEXT_2]',
@@ -461,6 +472,11 @@ class RixxyX {
   }
   execJsCode(args) {
     var func = new Function(args.JS_CODE);
+  }
+  get (args) {
+    return fetch(args.URL)
+      .then(r => r.text())
+      .catch(() => '');
   }
 }
 Scratch.extensions.register(new RixxyX());
