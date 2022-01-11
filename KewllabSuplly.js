@@ -1,14 +1,14 @@
  
 var count = 0
 
-class RixxyX {
+class Kl {
   getInfo() {
     return {
       color1: "#773c00",
       color2: "#5f3000",
-      id: "RixxyX",
+      id: "kl",
       name: "KewllabSupply",
-      description: '[deleted]',
+      description: 'KewllabDependencies',
       blocks: [
         {
           opcode: 'get',
@@ -28,11 +28,11 @@ class RixxyX {
           arguments: {
             TEXT_1: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX'
+              defaultValue: ''
             },
             TEXT_2: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'TyruntX'
+              defaultValue: ''
             }
           }
         },
@@ -70,11 +70,11 @@ class RixxyX {
             },
             TEXT_1: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX'
+              defaultValue: ''
             },
             TEXT_2: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'TyruntX'
+              defaultValue: ''
             }
           }
         },
@@ -89,7 +89,7 @@ class RixxyX {
             },
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX'
+              defaultValue: ''
             }
           }
         },
@@ -100,7 +100,7 @@ class RixxyX {
           arguments: {
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX is cool, right?'
+              defaultValue: ''
             },
             NUM_1: {
               type: Scratch.ArgumentType.NUMBER,
@@ -119,7 +119,7 @@ class RixxyX {
           arguments: {
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX is cool, right?'
+              defaultValue: ''
             }
           }
         },
@@ -134,7 +134,7 @@ class RixxyX {
             },
             OBJ_VAL: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX is cool, right?'
+              defaultValue: ''
             }
           }
         },
@@ -145,11 +145,11 @@ class RixxyX {
           arguments: {
             TEXT_1: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX is cool, right?'
+              defaultValue: ''
             },
             TEXT_2: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX is cool, right?'
+              defaultValue: ''
             }
           }
         },
@@ -160,7 +160,7 @@ class RixxyX {
           arguments: {
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'XyxxiR'
+              defaultValue: ''
             }
           }
         },
@@ -210,7 +210,7 @@ class RixxyX {
           arguments: {
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'rixxyx'
+              defaultValue: ''
             }
           }
         },
@@ -221,7 +221,7 @@ class RixxyX {
           arguments: {
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RIXXYX'
+              defaultValue: ''
             }
           }
         },
@@ -232,7 +232,7 @@ class RixxyX {
           arguments: {
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'rixxyX is cool, right?'
+              defaultValue: ''
             }
           }
         },
@@ -276,7 +276,7 @@ class RixxyX {
           arguments: {
             BIN: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: '01010010 01101001 01111000 01111000 01111001 01011000'
+              defaultValue: ''
             }
           }
         },
@@ -287,7 +287,7 @@ class RixxyX {
           arguments: {
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: 'RixxyX'
+              defaultValue: ''
             }
           }
         },
@@ -313,7 +313,7 @@ class RixxyX {
           arguments: {
             JS_CODE: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: '\"Ri\" + \"xx\" + \"yX\"'
+              defaultValue: ''
             }
           }
         },
@@ -324,7 +324,7 @@ class RixxyX {
           arguments: {
             TEXT: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: '\"RixxyX\"'
+              defaultValue: '\"test\"'
             }
           }
         },
@@ -335,7 +335,7 @@ class RixxyX {
           arguments: {
             JS_CODE: {
               type: Scratch.ArgumentType.STRING,
-              defaultValue: '\"Ri\" + \"xx\" + \"yX\"'
+              defaultValue: ''
             }
           }
         }
@@ -479,4 +479,4 @@ class RixxyX {
       .catch(() => '');
   }
 }
-Scratch.extensions.register(new RixxyX());
+Scratch.extensions.register(new Kl());
